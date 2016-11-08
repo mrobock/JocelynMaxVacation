@@ -1,0 +1,92 @@
+
+#background_img {
+  opacity: .3;
+  height: 205%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  /*background-image: url(https://static.pexels.com/photos/6934/beach-vacation-water-summer.jpg);*/
+}
+#florence {
+  width: 50%;
+  height: 60%;
+  margin-left: 25%;
+}
+#Honolulu {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 36px;
+  font-weight: bold;
+  border: 30px solid transparent;
+  border-image:url("https://s-media-cache-ak0.pinimg.com/originals/a5/3f/2b/a53f2b50f16ed4935c9210612d6d0489.jpg") 50 35 round;
+}
+table {
+  width: 50%;
+  margin-left: 25%;
+  border-collapse: collapse;
+  text-align: center;
+}
+td, th {
+  border: 2px solid black;
+}
+td {
+  padding: 7px;
+}
+h1 {
+  font-family: 'Shrikhand', cursive;
+  color: #FF69B4;
+}
+h3 {
+  color: #FF69B4;
+  font-size: 150%;
+  font-family: 'Shrikhand', cursive;
+  border-style: dashed;
+  border-color: #00F;
+  padding-left: 10px;
+}
+
+#AthensTable {
+  color: purple;
+  font-family: cursive;
+}
+
+.cities {
+  border: 2px solid purple;
+  border-radius: 5px;
+}
+
+#parispic {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+a:visited {
+  color: #FF69B4;
+}
+a:hover {
+  color: purple;
+  font-family: cursive;
+}
+a {
+  text-decoration: none;
+}
+
+/*pseudo selector*/
+
+
+/*Really interesting property*/
+/*color
+background-color - consider using this on your sections
+text-align
+font-family
+font-size
+font-weight
+border-width
+border-color
+border-style
+float on img
+margin on img to add space around images*/
