@@ -11,10 +11,24 @@
   margin-bottom: 0;
   /*background-image: url(https://static.pexels.com/photos/6934/beach-vacation-water-summer.jpg);*/
 }
+#londonlist {
+  float: left;
+  height: 60%;
+  background: white;
+  flex-direction: column;
+  align-content: center;
+}
+#londonlist > ul {
+  vertical-align: middle;
+  background-color: gray;
+  display: block;
+  margin-right: 2%;
+}
 #florence {
   width: 50%;
   height: 60%;
-  margin-left: 25%;
+  /*margin-left: 25%;*/
+  float: right;
 }
 #Honolulu {
   text-align: center;
@@ -24,11 +38,29 @@
   border: 30px solid transparent;
   border-image:url("https://s-media-cache-ak0.pinimg.com/originals/a5/3f/2b/a53f2b50f16ed4935c9210612d6d0489.jpg") 50 35 round;
 }
+#honoluludiv:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+#athenspic {
+  float: right;
+  display: inline-block;
+  margin: inherit;
+}
+
+#florence:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
 table {
   width: 50%;
-  margin-left: 25%;
+  margin-left: 5%;
   border-collapse: collapse;
   text-align: center;
+  float: left;
 }
 td, th {
   border: 2px solid black;
@@ -58,21 +90,80 @@ h3 {
   border: 2px solid purple;
   border-radius: 5px;
 }
+.citytext_left {
+  float: left;
+  width: 48%;
+  /*margin-top: 10%;*/
+}
+.citytext_left p {
+  vertical-align: middle;
+  margin-top: 10%;
+}
+.citytext_right {
+  float: right;
+  width: 48%;
+  background-color: red;
+}
+.citytext_right:after {
+  height: 50px;
+  width: 10px;
+  background-color: black;
+  content: " ";
+  display: table;
+  clear: both;
 
+}
+.honoluludiv {
+    background-color: gray;
+}
+.honoluludiv:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
 #parispic {
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 40%;
+  height: 35%;
+  /*margin-left: 25%;
+  margin-right: 25%;*/
+  float: right;
+}
+#parisdiv:after {
+  content: " ";
+  display: table;
+  clear: both;
 }
 a:visited {
-  color: #FF69B4;
+  color: blue;
 }
 a:hover {
   color: purple;
   font-family: cursive;
 }
 a {
-  text-decoration: none;
+  /*text-decoration: none;*/
+
+}
+
+#navbar {
+  padding-top: 2%;
+  margin-bottom: -1%;
+}
+#navbar > a:hover {
+  color: orange;
+  font-size: 100%;
+  font-family: serif;
+}
+.button {
+  height: 18px;
+  width: 25px;
+  border-radius: 4px;
+  background-color: rgba(44,44,66,.2);
+  padding: 4px;
+  margin-right: 2px;
+  color: pink;
+  font-weight: bold;
+  border-style: solid;;
 }
 
 /*pseudo selector*/
